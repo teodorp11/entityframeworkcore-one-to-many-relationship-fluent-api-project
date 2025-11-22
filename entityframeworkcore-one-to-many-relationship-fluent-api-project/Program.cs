@@ -1,5 +1,9 @@
 
-namespace entityframeworkcore_one_to_many_relationship_fluent_api_project
+using entityframeworkcore_one_to_many_relationship_project.Data;
+using entityframeworkcore_one_to_many_relationship_project.Repo;
+using Microsoft.EntityFrameworkCore;
+
+namespace entityframeworkcore_one_to_many_relationship_project
 {
     public class Program
     {
@@ -13,6 +17,13 @@ namespace entityframeworkcore_one_to_many_relationship_fluent_api_project
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<AppDbContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<Repository>();
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+            });
+
 
             var app = builder.Build();
 

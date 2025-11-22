@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "entityframeworkcore_one_to_many_relationship_project.Controllers.TestController",
+    "Method": "AddDoctor",
+    "RelativePath": "api/Test/add-doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "entityframeworkcore_one_to_many_relationship_project.Models.Doctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "entityframeworkcore_one_to_many_relationship_project.Controllers.TestController",
+    "Method": "AddPatient",
+    "RelativePath": "api/Test/add-patient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patient",
+        "Type": "entityframeworkcore_one_to_many_relationship_project.Models.Patient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "entityframeworkcore_one_to_many_relationship_project.Controllers.TestController",
+    "Method": "GetDoctors",
+    "RelativePath": "api/Test/get-doctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "entityframeworkcore_one_to_many_relationship_project.Controllers.TestController",
+    "Method": "GetPatients",
+    "RelativePath": "api/Test/get-patients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "X2tMgC/GcSrT8xEEMrdo+xOA1nzwKAys6yvEoIZAawk=",
+  "Source": "entityframeworkcore-one-to-many-relationship-fluent-api-project",
+  "BasePath": "_content/entityframeworkcore-one-to-many-relationship-fluent-api-project",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

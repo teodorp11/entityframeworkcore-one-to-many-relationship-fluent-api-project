@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E2FB99-D859-497F-B49A-4A7FCFB96CC3}|entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project.csproj|c:\\users\\admin\\desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E2FB99-D859-497F-B49A-4A7FCFB96CC3}|entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project.csproj|solutionrelative:entityframeworkcore-one-to-many-relationship-fluent-api-project\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E2FB99-D859-497F-B49A-4A7FCFB96CC3}|entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project.csproj|c:\\users\\admin\\desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E2FB99-D859-497F-B49A-4A7FCFB96CC3}|entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project.csproj|solutionrelative:entityframeworkcore-one-to-many-relationship-fluent-api-project\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E2FB99-D859-497F-B49A-4A7FCFB96CC3}|entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project.csproj|c:\\users\\admin\\desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\repo\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E2FB99-D859-497F-B49A-4A7FCFB96CC3}|entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project.csproj|solutionrelative:entityframeworkcore-one-to-many-relationship-fluent-api-project\\repo\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedHeight": 22,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "entityframeworkcore-one-to-many-relationship-fluent-api-project\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "entityframeworkcore-one-to-many-relationship-fluent-api-project\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:08:13.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "entityframeworkcore-one-to-many-relationship-fluent-api-project\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\Models\\Patient.cs",
+              "RelativeToolTip": "entityframeworkcore-one-to-many-relationship-fluent-api-project\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:10:06.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\Repo\\Repository.cs",
+              "RelativeDocumentMoniker": "entityframeworkcore-one-to-many-relationship-fluent-api-project\\Repo\\Repository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\entityframeworkcore-one-to-many-relationship-fluent-api-project\\Repo\\Repository.cs",
+              "RelativeToolTip": "entityframeworkcore-one-to-many-relationship-fluent-api-project\\Repo\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:08:10.198Z",
+              "EditorCaption": ""
             }
           ]
         }
